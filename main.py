@@ -39,9 +39,6 @@ while run:
 # #TODO-2: What if the user enters a shift that is greater than the number of letters in the alphabet?
 # #Try running the program and entering a shift number of 45.
 # #Add some code so that the program continues to work even if the user enters a shift number greater than 26. 
-# #Hint: Think about how you can use the modulus (%).
-
-
 
     caesar(start_text=text, shift_amount = shift, cipher_direction=direction)
     user_input = input("\nDo you want to run the program again? Type yes or no\n\n")
